@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cardView"
+    android:layout_margin="6dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="5dp"
+    android:background="#000"
+    android:backgroundTint="#000"
+    android:elevation="4dp">
+
+    <RelativeLayout
+        android:id="@+id/head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Note 1"
+            android:padding="8dp"
+            android:textSize="15dp"
+            android:textColor="#fff"
+            android:layout_marginLeft="10dp" />
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="31/01/2022"
+            android:padding="8dp"
+            android:textSize="15dp"
+            android:textColor="#fff"
+            android:layout_marginLeft="10dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="10dp" />
+
+        <TextView
+            android:id="@+id/content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title"
+            android:text="Typed Something here ... "
+            android:textColor="#fff"
+            android:padding="8dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="4dp"
+            />
+
+    </RelativeLayout>
+
+
+
+</androidx.cardview.widget.CardView>
